@@ -1,0 +1,72 @@
+.login {
+    padding: 10px;
+    flex: 1;
+}
+
+.login__logo {
+    width:150px;
+    height: auto;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 20%;
+    min-width: 250px;
+    padding: 20px;;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px #0F1C51;
+}
+
+.login__title {
+    margin: 10px;
+    color: #0F1736;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login__form--group {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.form__label {
+    padding: 3px;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: #0F1736;
+}
+
+.form__field {
+    height: 25px;
+    padding: 3px 8px;
+    border: 0.1px solid #0F1736;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px #818282;
+}
+
+.form__send-button {
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    background-color: #225EBE;
+}
+
+.login__create-account {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #1F5CBB;
+}
