@@ -9,11 +9,22 @@ const Login = () => {
                 <form className='login__form' >
                     <div className='login__form--group'>
                         <label className='form__label' htmlFor="user">Usuario</label>
-                        <input className='form__field' type="text" id="user" placeholder='Ingresa usuario o correo'/>
+                        <input 
+                            className='form__field' 
+                            type="text" 
+                            id="user" 
+                            placeholder='Ingresa usuario o correo'
+                            required='true'/>
                     </div>
                     <div className='login__form--group'>
                         <label className='form__label' htmlFor="password">Contraseña</label>
-                        <input className='form__field' type="text" id="password" placeholder='Ingresa tu contraseña'/>
+                        <input 
+                            className='form__field' 
+                            type="password" 
+                            id="password" 
+                            placeholder='Ingresa tu contraseña'
+                            required='true'/>
+                        <button className='form__remember-pass'>¿Olvidaste tu contraseña?</button>
                     </div>
                     <button className='form__send-button' formAction="send">Iniciar sesión</button>
                 </form>

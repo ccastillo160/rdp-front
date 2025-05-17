@@ -5,7 +5,10 @@ export const books = [
         author: "Gabriel García Márquez",
         publisher: "Editorial Sudamericana",
         isbn: "978-9500701850",
-        year: 1967
+        year: 1967,
+        price: 19.50,
+        gender: "Realismo Mágico",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/38/12/3812f54c9c10992f538ead2c95d775ed.jpg"
     },
     {
         id: 2,
@@ -13,7 +16,10 @@ export const books = [
         author: "George Orwell",
         publisher: "Harcourt, Brace and Company",
         isbn: "978-0151660353",
-        year: 1949
+        year: 1949,
+        price: 14.00,
+        gender: "Distopía",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/c9/ee/c9eef0bafc045010bfc431812ea5bbf8.jpg"
     },
     {
         id: 3,
@@ -21,7 +27,10 @@ export const books = [
         author: "Jane Austen",
         publisher: "Thomas Egerton",
         isbn: "978-0141439518",
-        year: 1813
+        year: 1813,
+        price: 12.80,
+        gender: "Romance",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/69/d4/69d4e28b6661d6b7ed6a53c1ba34eb33.jpg"
     },
     {
         id: 4,
@@ -29,7 +38,10 @@ export const books = [
         author: "F. Scott Fitzgerald",
         publisher: "Charles Scribner's Sons",
         isbn: "978-0743273565",
-        year: 1925
+        year: 1925,
+        price: 10.50,
+        gender: "Ficción Clásica",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/bd/64/bd6428fce004319e1b29d947a09038bf.jpg"
     },
     {
         id: 5,
@@ -37,7 +49,10 @@ export const books = [
         author: "Harper Lee",
         publisher: "J. B. Lippincott & Co.",
         isbn: "978-0061120084",
-        year: 1960
+        year: 1960,
+        price: 15.25,
+        gender: "Ficción Gótica Sureña",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/1b/d7/1bd7b432c94ccdcf816c917d8abe8e83.jpg"
     },
     {
         id: 6,
@@ -45,7 +60,10 @@ export const books = [
         author: "J.K. Rowling",
         publisher: "Bloomsbury Publishing",
         isbn: "978-0747532699",
-        year: 1997
+        year: 1997,
+        price: 22.00,
+        gender: "Fantasía",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/b5/09/b509035563704861a0037be22cd68f96.jpg"
     },
     {
         id: 7,
@@ -53,7 +71,10 @@ export const books = [
         author: "J.R.R. Tolkien",
         publisher: "George Allen & Unwin",
         isbn: "978-0547928227",
-        year: 1937
+        year: 1937,
+        price: 16.75,
+        gender: "Fantasía",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/40/a5/40a54aa2a241ee753cc763d4160bbebd.jpg"
     },
     {
         id: 8,
@@ -61,7 +82,10 @@ export const books = [
         author: "Ray Bradbury",
         publisher: "Ballantine Books",
         isbn: "978-0345227614",
-        year: 1953
+        year: 1953,
+        price: 13.90,
+        gender: "Ciencia Ficción Distópica",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/4a/49/4a49b81af843172a31a50bc07554f960.jpg"
     },
     {
         id: 9,
@@ -69,7 +93,10 @@ export const books = [
         author: "George Orwell",
         publisher: "Secker & Warburg",
         isbn: "978-0451526342",
-        year: 1945
+        year: 1945,
+        price: 11.50,
+        gender: "Sátira Política",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/40/40/4040d1e6a8bd2e76999397107c379ed1.jpg"
     },
     {
         id: 10,
@@ -77,7 +104,10 @@ export const books = [
         author: "J.D. Salinger",
         publisher: "Little, Brown and Company",
         isbn: "978-0316769488",
-        year: 1951
+        year: 1951,
+        price: 14.80,
+        gender: "Novela de Formación",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/d1/d8/d1d83af23331b1e61922bcf3f7fa2024.jpg"
     },
     {
         id: 11,
@@ -85,7 +115,10 @@ export const books = [
         author: "J.R.R. Tolkien",
         publisher: "George Allen & Unwin",
         isbn: "978-0618260257",
-        year: 1954
+        year: 1954,
+        price: 25.00,
+        gender: "Alta Fantasía",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/69/a4/69a4dd6da2e71e711a978e1fffb06d33.jpg"
     },
     {
         id: 12,
@@ -93,7 +126,10 @@ export const books = [
         author: "Agatha Christie",
         publisher: "Collins Crime Club",
         isbn: "978-0062073488",
-        year: 1939
+        year: 1939,
+        price: 10.99,
+        gender: "Misterio",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/9c/ed/9cedb59dabf6db358ed39cb111c4f36a.jpg"
     },
     {
         id: 13,
@@ -101,7 +137,10 @@ export const books = [
         author: "Antoine de Saint-Exupéry",
         publisher: "Reynal & Hitchcock",
         isbn: "978-0684826936",
-        year: 1943
+        year: 1943,
+        price: 9.50,
+        gender: "Fábula",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/a5/53/a553837134bf5f68fafc261faf62b3e0.jpg"
     },
     {
         id: 14,
@@ -109,7 +148,10 @@ export const books = [
         author: "Dan Brown",
         publisher: "Doubleday",
         isbn: "978-0385504205",
-        year: 2003
+        year: 2003,
+        price: 17.00,
+        gender: "Thriller",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/a0/ce/a0cefe071d8b46f4da4c79e2a3d2243a.jpg"
     },
     {
         id: 15,
@@ -117,7 +159,10 @@ export const books = [
         author: "Paulo Coelho",
         publisher: "HarperCollins",
         isbn: "978-0061122415",
-        year: 1988
+        year: 1988,
+        price: 11.00,
+        gender: "Ficción Filosófica",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/45/ec/45ec8d60be7f793b5a488e78405b116c.jpg"
     },
     {
         id: 16,
@@ -125,7 +170,10 @@ export const books = [
         author: "Sylvia Plath",
         publisher: "Heinemann",
         isbn: "978-0061122422",
-        year: 1963
+        year: 1963,
+        price: 13.50,
+        gender: "Ficción Autobiográfica",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/05/54/055427df4b4c8b659af538da7f5e7b25.jpg"
     },
     {
         id: 17,
@@ -133,7 +181,10 @@ export const books = [
         author: "Aldous Huxley",
         publisher: "Chatto & Windus",
         isbn: "978-0060850524",
-        year: 1932
+        year: 1932,
+        price: 12.99,
+        gender: "Ciencia Ficción Distópica",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/60/e7/60e70fc79d491c3357b3f63b5ae6743b.jpg"
     },
     {
         id: 18,
@@ -141,7 +192,10 @@ export const books = [
         author: "Stephen King",
         publisher: "Doubleday",
         isbn: "978-0385199577",
-        year: 1978
+        year: 1978,
+        price: 21.00,
+        gender: "Terror Post-Apocalíptico",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/9c/a5/9ca5024a09996a562d52b93acc7ce2ef.jpg"
     },
     {
         id: 19,
@@ -149,7 +203,10 @@ export const books = [
         author: "Stephen King",
         publisher: "Viking",
         isbn: "978-0670813025",
-        year: 1986
+        year: 1986,
+        price: 24.50,
+        gender: "Terror",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/ff/ec/ffecaba38f22e8d748e8472358d3e124.jpg"
     },
     {
         id: 20,
@@ -157,7 +214,10 @@ export const books = [
         author: "Stephen King",
         publisher: "Doubleday",
         isbn: "978-0385121677",
-        year: 1977
+        year: 1977,
+        price: 19.00,
+        gender: "Terror Gótico",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/8a/b6/8ab6b9741d421653b6bff4071d42df7e.jpg"
     },
     {
         id: 21,
@@ -165,7 +225,10 @@ export const books = [
         author: "H.P. Lovecraft",
         publisher: "Weird Tales",
         isbn: "978-0141182346",
-        year: 1928
+        year: 1928,
+        price: 15.00,
+        gender: "Horror Cósmico",
+        image: "https://images.cdn2.buscalibre.com/fit-in/360x360/10/88/1088a245c1b622bd0124a29f35bf2ce9.jpg"
     },
     {
         id: 22,
@@ -173,7 +236,10 @@ export const books = [
         author: "Mary Shelley",
         publisher: "Lackington, Hughes, Harding, Mavor & Jones",
         isbn: "978-0141439518",
-        year: 1818
+        year: 1818,
+        price: 11.80,
+        gender: "Gótico",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/fe/d4/fed4e735d5c89ca3e6c1b533145ea518.jpg"
     },
     {
         id: 23,
@@ -181,7 +247,10 @@ export const books = [
         author: "Bram Stoker",
         publisher: "Archibald Constable and Company",
         isbn: "978-0141439846",
-        year: 1897
+        year: 1897,
+        price: 13.00,
+        gender: "Terror Gótico",
+        image: "https://images.cdn1.buscalibre.com/fit-in/360x360/3d/d7/3dd7b2d52c5f679fab109869c834a5a1.jpg"
     },
     {
         id: 24,
@@ -189,7 +258,10 @@ export const books = [
         author: "Charlotte Brontë",
         publisher: "Smith, Elder & Co.",
         isbn: "978-0141439518",
-        year: 1847
+        year: 1847,
+        price: 12.50,
+        gender: "Novela Gótica",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/9b/4d/9b4d0c92dd7e99db4cfafad1cc33c5a8.jpg"
     },
     {
         id: 25,
@@ -197,7 +269,10 @@ export const books = [
         author: "Emily Brontë",
         publisher: "Thomas Cautley Newby",
         isbn: "978-0141439556",
-        year: 1847
+        year: 1847,
+        price: 11.99,
+        gender: "Romance Gótico",
+        image: "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/2b/b12b2ffdcdfa6748fddc640ce0e87c2f.jpg"
     },
     {
         id: 26,
@@ -205,7 +280,10 @@ export const books = [
         author: "Jane Austen",
         publisher: "Thomas Egerton",
         isbn: "978-0141439518",
-        year: 1811
+        year: 1811,
+        price: 10.80,
+        gender: "Novela de Costumbres",
+        image: ""
     },
     {
         id: 27,
@@ -213,7 +291,10 @@ export const books = [
         author: "Jane Austen",
         publisher: "John Murray",
         isbn: "978-0141439518",
-        year: 1815
+        year: 1815,
+        price: 11.20,
+        gender: "Novela de Costumbres",
+        image: ""
     },
     {
         id: 28,
@@ -221,7 +302,10 @@ export const books = [
         author: "Louisa May Alcott",
         publisher: "Roberts Brothers",
         isbn: "978-0146001149",
-        year: 1868
+        year: 1868,
+        price: 14.95,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 29,
@@ -229,7 +313,10 @@ export const books = [
         author: "Charles Dickens",
         publisher: "Chapman and Hall",
         isbn: "978-0141439518",
-        year: 1861
+        year: 1861,
+        price: 13.70,
+        gender: "Novela de Formación",
+        image: ""
     },
     {
         id: 30,
@@ -237,7 +324,10 @@ export const books = [
         author: "Charles Dickens",
         publisher: "Richard Bentley",
         isbn: "978-0141439518",
-        year: 1838
+        year: 1838,
+        price: 12.00,
+        gender: "Novela Social",
+        image: ""
     },
     {
         id: 31,
@@ -245,7 +335,10 @@ export const books = [
         author: "Charles Dickens",
         publisher: "Chapman & Hall",
         isbn: "978-0141439518",
-        year: 1859
+        year: 1859,
+        price: 13.25,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 32,
@@ -253,7 +346,10 @@ export const books = [
         author: "Fyodor Dostoevsky",
         publisher: "The Russian Messenger",
         isbn: "978-0141439990",
-        year: 1866
+        year: 1866,
+        price: 15.50,
+        gender: "Novela Filosófica",
+        image: ""
     },
     {
         id: 33,
@@ -261,7 +357,10 @@ export const books = [
         author: "Leo Tolstoy",
         publisher: "The Russian Messenger",
         isbn: "978-0140449178",
-        year: 1877
+        year: 1877,
+        price: 16.00,
+        gender: "Realismo",
+        image: ""
     },
     {
         id: 34,
@@ -269,7 +368,10 @@ export const books = [
         author: "Gustave Flaubert",
         publisher: "Revue de Paris",
         isbn: "978-0140449192",
-        year: 1856
+        year: 1856,
+        price: 14.30,
+        gender: "Realismo",
+        image: ""
     },
     {
         id: 35,
@@ -277,7 +379,10 @@ export const books = [
         author: "Alexandre Dumas",
         publisher: "Ponson et Hetzel",
         isbn: "978-0140449260",
-        year: 1844
+        year: 1844,
+        price: 18.00,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 36,
@@ -285,7 +390,10 @@ export const books = [
         author: "Alexandre Dumas",
         publisher: "Bentley's Miscellany",
         isbn: "978-0140449277",
-        year: 1844
+        year: 1844,
+        price: 16.50,
+        gender: "Aventura Histórica",
+        image: ""
     },
     {
         id: 37,
@@ -293,7 +401,10 @@ export const books = [
         author: "Victor Hugo",
         publisher: "A. Lacroix, Verboeckhoven & Cie.",
         isbn: "978-0140449284",
-        year: 1862
+        year: 1862,
+        price: 20.00,
+        gender: "Novela Histórica",
+        image: ""
     },
     {
         id: 38,
@@ -301,7 +412,10 @@ export const books = [
         author: "Oscar Wilde",
         publisher: "Lippincott's Monthly Magazine",
         isbn: "978-0141442488",
-        year: 1890
+        year: 1890,
+        price: 13.80,
+        gender: "Ficción Gótica",
+        image: ""
     },
     {
         id: 39,
@@ -309,7 +423,10 @@ export const books = [
         author: "Robert Louis Stevenson",
         publisher: "Longmans, Green & Co.",
         isbn: "978-0141439716",
-        year: 1886
+        year: 1886,
+        price: 10.00,
+        gender: "Novela Gótica",
+        image: ""
     },
     {
         id: 40,
@@ -317,7 +434,10 @@ export const books = [
         author: "Arthur Conan Doyle",
         publisher: "George Newnes Ltd",
         isbn: "978-0140437823",
-        year: 1892
+        year: 1892,
+        price: 14.00,
+        gender: "Misterio",
+        image: ""
     },
     {
         id: 41,
@@ -325,7 +445,10 @@ export const books = [
         author: "Jules Verne",
         publisher: "Pierre-Jules Hetzel",
         isbn: "978-0140449260",
-        year: 1870
+        year: 1870,
+        price: 15.75,
+        gender: "Ciencia Ficción",
+        image: ""
     },
     {
         id: 42,
@@ -333,7 +456,10 @@ export const books = [
         author: "Jules Verne",
         publisher: "Pierre-Jules Hetzel",
         isbn: "978-0140449246",
-        year: 1864
+        year: 1864,
+        price: 14.20,
+        gender: "Ciencia Ficción",
+        image: ""
     },
     {
         id: 43,
@@ -341,7 +467,10 @@ export const books = [
         author: "Jules Verne",
         publisher: "Pierre-Jules Hetzel",
         isbn: "978-0140439414",
-        year: 1873
+        year: 1873,
+        price: 13.00,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 44,
@@ -349,7 +478,10 @@ export const books = [
         author: "Jonathan Swift",
         publisher: "Benjamin Motte",
         isbn: "978-0141439495",
-        year: 1726
+        year: 1726,
+        price: 11.50,
+        gender: "Sátira",
+        image: ""
     },
     {
         id: 45,
@@ -357,7 +489,10 @@ export const books = [
         author: "Daniel Defoe",
         publisher: "William Taylor",
         isbn: "978-0141439421",
-        year: 1719
+        year: 1719,
+        price: 10.90,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 46,
@@ -365,7 +500,10 @@ export const books = [
         author: "Herman Melville",
         publisher: "Richard Bentley",
         isbn: "978-0142437247",
-        year: 1851
+        year: 1851,
+        price: 15.00,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 47,
@@ -373,7 +511,10 @@ export const books = [
         author: "Nathaniel Hawthorne",
         publisher: "Ticknor, Reed & Fields",
         isbn: "978-0142437261",
-        year: 1850
+        year: 1850,
+        price: 12.70,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 48,
@@ -381,7 +522,10 @@ export const books = [
         author: "Nathaniel Hawthorne",
         publisher: "Ticknor, Reed & Fields",
         isbn: "978-0140389708",
-        year: 1851
+        year: 1851,
+        price: 13.00,
+        gender: "Ficción Gótica",
+        image: ""
     },
     {
         id: 49,
@@ -389,7 +533,10 @@ export const books = [
         author: "Henry David Thoreau",
         publisher: "Ticknor and Fields",
         isbn: "978-0140389708",
-        year: 1854
+        year: 1854,
+        price: 14.60,
+        gender: "Ensayo",
+        image: ""
     },
     {
         id: 50,
@@ -397,7 +544,10 @@ export const books = [
         author: "Walt Whitman",
         publisher: "Self-published",
         isbn: "978-0140424496",
-        year: 1855
+        year: 1855,
+        price: 17.50,
+        gender: "Poesía",
+        image: ""
     },
     {
         id: 51,
@@ -405,7 +555,10 @@ export const books = [
         author: "Mark Twain",
         publisher: "Chatto & Windus",
         isbn: "978-0141439518",
-        year: 1884
+        year: 1884,
+        price: 12.30,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 52,
@@ -413,7 +566,10 @@ export const books = [
         author: "Mark Twain",
         publisher: "Chatto & Windus",
         isbn: "978-0141439518",
-        year: 1876
+        year: 1876,
+        price: 11.00,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 53,
@@ -421,7 +577,10 @@ export const books = [
         author: "Robert Louis Stevenson",
         publisher: "Cassell & Company",
         isbn: "978-0141439518",
-        year: 1883
+        year: 1883,
+        price: 10.00,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 54,
@@ -429,7 +588,10 @@ export const books = [
         author: "Robert Louis Stevenson",
         publisher: "Cassell & Company",
         isbn: "978-0141439518",
-        year: 1886
+        year: 1886,
+        price: 10.50,
+        gender: "Aventura Histórica",
+        image: ""
     },
     {
         id: 55,
@@ -437,7 +599,10 @@ export const books = [
         author: "Jack London",
         publisher: "Macmillan",
         isbn: "978-0141439518",
-        year: 1906
+        year: 1906,
+        price: 11.90,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 56,
@@ -445,7 +610,10 @@ export const books = [
         author: "Jack London",
         publisher: "Macmillan",
         isbn: "978-0141439518",
-        year: 1903
+        year: 1903,
+        price: 10.80,
+        gender: "Aventura",
+        image: ""
     },
     {
         id: 57,
@@ -453,7 +621,10 @@ export const books = [
         author: "Margaret Mitchell",
         publisher: "Macmillan Publishers",
         isbn: "978-1451635621",
-        year: 1936
+        year: 1936,
+        price: 18.50,
+        gender: "Novela Histórica",
+        image: ""
     },
     {
         id: 58,
@@ -461,7 +632,10 @@ export const books = [
         author: "John Steinbeck",
         publisher: "The Viking Press",
         isbn: "978-0143039426",
-        year: 1939
+        year: 1939,
+        price: 15.00,
+        gender: "Novela Social",
+        image: ""
     },
     {
         id: 59,
@@ -469,7 +643,10 @@ export const books = [
         author: "John Steinbeck",
         publisher: "Covici Friede",
         isbn: "978-0140186406",
-        year: 1937
+        year: 1937,
+        price: 10.00,
+        gender: "Novela Social",
+        image: ""
     },
     {
         id: 60,
@@ -477,7 +654,10 @@ export const books = [
         author: "Ernest Hemingway",
         publisher: "Charles Scribner's Sons",
         isbn: "978-0684803357",
-        year: 1940
+        year: 1940,
+        price: 16.00,
+        gender: "Ficción Bélica",
+        image: ""
     },
     {
         id: 61,
@@ -485,7 +665,10 @@ export const books = [
         author: "Ernest Hemingway",
         publisher: "Charles Scribner's Sons",
         isbn: "978-0684830490",
-        year: 1952
+        year: 1952,
+        price: 9.99,
+        gender: "Novela Corta",
+        image: ""
     },
     {
         id: 62,
@@ -493,7 +676,10 @@ export const books = [
         author: "Ernest Hemingway",
         publisher: "Charles Scribner's Sons",
         isbn: "978-0684801469",
-        year: 1929
+        year: 1929,
+        price: 14.00,
+        gender: "Ficción Bélica",
+        image: ""
     },
     {
         id: 63,
@@ -501,7 +687,10 @@ export const books = [
         author: "Ernest Hemingway",
         publisher: "Charles Scribner's Sons",
         isbn: "978-0684830513",
-        year: 1926
+        year: 1926,
+        price: 13.50,
+        gender: "Ficción Literaria",
+        image: ""
     },
     {
         id: 64,
@@ -509,7 +698,10 @@ export const books = [
         author: "Kurt Vonnegut",
         publisher: "Delacorte Press",
         isbn: "978-0385312082",
-        year: 1969
+        year: 1969,
+        price: 14.00,
+        gender: "Ciencia Ficción",
+        image: ""
     },
     {
         id: 65,
@@ -517,7 +709,10 @@ export const books = [
         author: "Joseph Heller",
         publisher: "Simon & Schuster",
         isbn: "978-1416583257",
-        year: 1961
+        year: 1961,
+        price: 15.00,
+        gender: "Sátira Bélica",
+        image: ""
     },
     {
         id: 66,
@@ -525,7 +720,10 @@ export const books = [
         author: "Ken Kesey",
         publisher: "Viking Press",
         isbn: "978-0141187884",
-        year: 1962
+        year: 1962,
+        price: 13.00,
+        gender: "Ficción Literaria",
+        image: ""
     },
     {
         id: 67,
@@ -533,7 +731,10 @@ export const books = [
         author: "Hunter S. Thompson",
         publisher: "Random House",
         isbn: "978-0679785737",
-        year: 1971
+        year: 1971,
+        price: 16.00,
+        gender: "Periodismo Gonzo",
+        image: ""
     },
     {
         id: 68,
@@ -541,7 +742,10 @@ export const books = [
         author: "Jack Kerouac",
         publisher: "Viking Press",
         isbn: "978-0141182612",
-        year: 1957
+        year: 1957,
+        price: 15.50,
+        gender: "Beat Generation",
+        image: ""
     },
     {
         id: 69,
@@ -549,7 +753,10 @@ export const books = [
         author: "William S. Burroughs",
         publisher: "Olympia Press",
         isbn: "978-0802132981",
-        year: 1959
+        year: 1959,
+        price: 17.00,
+        gender: "Novela Experimental",
+        image: ""
     },
     {
         id: 70,
@@ -557,7 +764,10 @@ export const books = [
         author: "Gabriel García Márquez",
         publisher: "Alfred A. Knopf",
         isbn: "978-1400034656",
-        year: 1985
+        year: 1985,
+        price: 20.50,
+        gender: "Realismo Mágico",
+        image: ""
     },
     {
         id: 71,
@@ -565,7 +775,10 @@ export const books = [
         author: "José Saramago",
         publisher: "Editorial Caminho",
         isbn: "978-0156013181",
-        year: 1995
+        year: 1995,
+        price: 14.80,
+        gender: "Distopía",
+        image: ""
     },
     {
         id: 72,
@@ -573,7 +786,10 @@ export const books = [
         author: "Markus Zusak",
         publisher: "Picador",
         isbn: "978-0375831003",
-        year: 2005
+        year: 2005,
+        price: 13.00,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 73,
@@ -581,7 +797,10 @@ export const books = [
         author: "Stieg Larsson",
         publisher: "Norstedts Förlag",
         isbn: "978-0307474278",
-        year: 2005
+        year: 2005,
+        price: 16.00,
+        gender: "Novela Negra",
+        image: ""
     },
     {
         id: 74,
@@ -589,7 +808,10 @@ export const books = [
         author: "Suzanne Collins",
         publisher: "Scholastic Press",
         isbn: "978-0439023528",
-        year: 2008
+        year: 2008,
+        price: 12.00,
+        gender: "Ciencia Ficción Distópica Juvenil",
+        image: ""
     },
     {
         id: 75,
@@ -597,7 +819,10 @@ export const books = [
         author: "Veronica Roth",
         publisher: "Katherine Tegen Books",
         isbn: "978-0062024039",
-        year: 2011
+        year: 2011,
+        price: 11.50,
+        gender: "Ciencia Ficción Distópica Juvenil",
+        image: ""
     },
     {
         id: 76,
@@ -605,7 +830,10 @@ export const books = [
         author: "John Green",
         publisher: "Dutton Books",
         isbn: "978-0525478812",
-        year: 2012
+        year: 2012,
+        price: 10.00,
+        gender: "Ficción Juvenil",
+        image: ""
     },
     {
         id: 77,
@@ -613,7 +841,10 @@ export const books = [
         author: "Gillian Flynn",
         publisher: "Crown Publishing Group",
         isbn: "978-0307588364",
-        year: 2012
+        year: 2012,
+        price: 14.00,
+        gender: "Thriller Psicológico",
+        image: ""
     },
     {
         id: 78,
@@ -621,7 +852,10 @@ export const books = [
         author: "Kathryn Stockett",
         publisher: "Amy Einhorn Books",
         isbn: "978-0399155344",
-        year: 2009
+        year: 2009,
+        price: 15.00,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 79,
@@ -629,7 +863,10 @@ export const books = [
         author: "Andy Weir",
         publisher: "Crown Publishing Group",
         isbn: "978-0553418026",
-        year: 2014
+        year: 2014,
+        price: 13.00,
+        gender: "Ciencia Ficción",
+        image: ""
     },
     {
         id: 80,
@@ -637,7 +874,10 @@ export const books = [
         author: "Ernest Cline",
         publisher: "Crown Publishing Group",
         isbn: "978-0307887443",
-        year: 2011
+        year: 2011,
+        price: 12.50,
+        gender: "Ciencia Ficción",
+        image: ""
     },
     {
         id: 81,
@@ -645,7 +885,10 @@ export const books = [
         author: "Delia Owens",
         publisher: "G.P. Putnam's Sons",
         isbn: "978-0735219090",
-        year: 2018
+        year: 2018,
+        price: 15.00,
+        gender: "Ficción Literaria",
+        image: ""
     },
     {
         id: 82,
@@ -653,7 +896,10 @@ export const books = [
         author: "Celeste Ng",
         publisher: "Penguin Press",
         isbn: "978-0735224292",
-        year: 2017
+        year: 2017,
+        price: 14.00,
+        gender: "Ficción Contemporánea",
+        image: ""
     },
     {
         id: 83,
@@ -661,7 +907,10 @@ export const books = [
         author: "Kristin Hannah",
         publisher: "St. Martin's Press",
         isbn: "978-0312577123",
-        year: 2015
+        year: 2015,
+        price: 16.00,
+        gender: "Ficción Histórica",
+        image: ""
     },
     {
         id: 84,
@@ -669,7 +918,10 @@ export const books = [
         author: "Tara Westover",
         publisher: "Random House",
         isbn: "978-0399590504",
-        year: 2018
+        year: 2018,
+        price: 17.00,
+        gender: "Biografía/Memorias",
+        image: ""
     },
     {
         id: 85,
@@ -677,7 +929,10 @@ export const books = [
         author: "Michelle Obama",
         publisher: "Crown Publishing Group",
         isbn: "978-1524763138",
-        year: 2018
+        year: 2018,
+        price: 18.00,
+        gender: "Biografía/Memorias",
+        image: ""
     },
     {
         id: 86,
@@ -685,7 +940,10 @@ export const books = [
         author: "Mark Manson",
         publisher: "HarperOne",
         isbn: "978-0062457714",
-        year: 2016
+        year: 2016,
+        price: 12.00,
+        gender: "Autoayuda",
+        image: ""
     },
     {
         id: 87,
@@ -693,7 +951,10 @@ export const books = [
         author: "Yuval Noah Harari",
         publisher: "Harper",
         isbn: "978-0062316097",
-        year: 2011
+        year: 2011,
+        price: 19.00,
+        gender: "Divulgación Científica/Historia",
+        image: ""
     },
     {
         id: 88,
@@ -701,7 +962,10 @@ export const books = [
         author: "Susan Cain",
         publisher: "Broadway Books",
         isbn: "978-0307352149",
-        year: 2012
+        year: 2012,
+        price: 15.00,
+        gender: "Psicología",
+        image: ""
     },
     {
         id: 89,
@@ -709,7 +973,10 @@ export const books = [
         author: "Daniel Kahneman",
         publisher: "Farrar, Straus and Giroux",
         isbn: "978-0374275631",
-        year: 2011
+        year: 2011,
+        price: 18.00,
+        gender: "Psicología/Economía",
+        image: ""
     },
     {
         id: 90,
@@ -717,7 +984,10 @@ export const books = [
         author: "Charles Duhigg",
         publisher: "Random House",
         isbn: "978-0812981605",
-        year: 2012
+        year: 2012,
+        price: 14.00,
+        gender: "Autoayuda/Psicología",
+        image: ""
     },
     {
         id: 91,
@@ -725,7 +995,10 @@ export const books = [
         author: "Carol S. Dweck",
         publisher: "Ballantine Books",
         isbn: "978-0345497175",
-        year: 2006
+        year: 2006,
+        price: 11.00,
+        gender: "Psicología",
+        image: ""
     },
     {
         id: 92,
@@ -733,7 +1006,10 @@ export const books = [
         author: "Gabriel García Márquez",
         publisher: "La Oveja Negra",
         isbn: "978-0307476456",
-        year: 1981
+        year: 1981,
+        price: 16.50,
+        gender: "Realismo Mágico",
+        image: ""
     },
     {
         id: 93,
@@ -741,7 +1017,10 @@ export const books = [
         author: "Franz Kafka",
         publisher: "Kurt Wolff Verlag",
         isbn: "978-0553213694",
-        year: 1915
+        year: 1915,
+        price: 9.00,
+        gender: "Ficción Absurda",
+        image: ""
     },
     {
         id: 94,
@@ -749,7 +1028,10 @@ export const books = [
         author: "Hermann Hesse",
         publisher: "S. Fischer Verlag",
         isbn: "978-0553213694",
-        year: 1927
+        year: 1927,
+        price: 12.00,
+        gender: "Ficción Filosófica",
+        image: ""
     },
     {
         id: 95,
@@ -757,7 +1039,10 @@ export const books = [
         author: "Hermann Hesse",
         publisher: "S. Fischer Verlag",
         isbn: "978-0593320419",
-        year: 1922
+        year: 1922,
+        price: 10.00,
+        gender: "Novela Filosófica",
+        image: ""
     },
     {
         id: 96,
@@ -765,7 +1050,10 @@ export const books = [
         author: "Alfredo Bryce Echenique",
         publisher: "Barral Editores",
         isbn: "978-9500714065",
-        year: 1970
+        year: 1970,
+        price: 15.00,
+        gender: "Novela de Formación",
+        image: ""
     },
     {
         id: 97,
@@ -773,7 +1061,10 @@ export const books = [
         author: "Mario Vargas Llosa",
         publisher: "Seix Barral",
         isbn: "978-8432230715",
-        year: 1963
+        year: 1963,
+        price: 16.00,
+        gender: "Realismo",
+        image: ""
     },
     {
         id: 98,
@@ -781,7 +1072,10 @@ export const books = [
         author: "Julio Cortázar",
         publisher: "Editorial Sudamericana",
         isbn: "978-9500701850",
-        year: 1963
+        year: 1963,
+        price: 17.00,
+        gender: "Novela Experimental",
+        image: ""
     },
     {
         id: 99,
@@ -789,7 +1083,10 @@ export const books = [
         author: "Jorge Luis Borges",
         publisher: "Sur",
         isbn: "978-0307263529",
-        year: 1944
+        year: 1944,
+        price: 13.00,
+        gender: "Relato Corto / Ficción Filosófica",
+        image: ""
     },
     {
         id: 100,
@@ -797,6 +1094,9 @@ export const books = [
         author: "Octavio Paz",
         publisher: "Fondo de Cultura Económica",
         isbn: "978-9681670718",
-        year: 1950
+        year: 1950,
+        price: 14.00,
+        gender: "Ensayo Filosófico",
+        image: ""
     }
 ]

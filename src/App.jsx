@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer.jsx'
+import Landing from './views/Landing.jsx'
 import HomePage from './views/HomePage.jsx'
 import Login from './views/Login.jsx'
 
@@ -12,7 +13,8 @@ function AppContent() {
     <>
     {!esLogin && <Header />}
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<Landing />} />
+      <Route path="/home" element={<HomePage />} />
       <Route path="/login" element={<Login />} />
     </Routes>
     <Footer />
