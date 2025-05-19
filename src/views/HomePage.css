@@ -1,4 +1,17 @@
 .home {
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     flex: 1
+}
+
+.home__main-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+.main-content__books {
+    display: grid;
+    padding: 0px 5px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }

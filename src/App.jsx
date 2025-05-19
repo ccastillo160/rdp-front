@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css'
+import { GlobalProvider } from './context/GlobalContext'
 import Header from './components/Header'
 import Footer from './components/Footer.jsx'
 import Landing from './views/Landing.jsx'
@@ -24,7 +25,9 @@ function AppContent() {
 
 function App() {
   return (
-    <AppContent />
+    <GlobalProvider>
+      <AppContent />
+    </GlobalProvider>
   )
 }
 
