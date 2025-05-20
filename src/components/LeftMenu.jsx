@@ -1,17 +1,28 @@
-
 import { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext'
-import useBooks from '../hooks/useBooks'
+import { books as booksData } from '../data/booksData.js';
 import './LeftMenu.css'
+
+const allGenders = booksData.reduce((acum, current) => {
+    if (!acum.includes(current['gender'])) {
+        acum.push(current['gender'])
+    }
+    return acum.sort()
+}, []);
+allGenders.unshift('Todos')
 
 const LeftMenu = () => {
     const { changeGender } = useContext (GlobalContext);
-    const { genders } = useBooks('')
+
+    const handleGender = (e) => {
+        changeGender(e.target.value)
+    }
+    
     return(
         <main className='left-menu'>
             <h3 className='left-menu__title'>Géneros</h3>
-            {genders.map((gender) => {
-                return <button className='left-menu__gender' onClick={changeGender(gender)}>{gender}</button>
+            {allGenders.map((thisGender) => {
+                return <button key={thisGender} className='left-menu__gender' value={thisGender} onClick={handleGender}>{thisGender}</button>
             })}
         </main>
     )

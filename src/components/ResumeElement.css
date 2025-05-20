@@ -1,0 +1,41 @@
+.resume-element {
+    display: flex;
+    border-bottom: 1px solid gray ;
+}
+
+.book-image__content{
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+}
+
+.resume-element__info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.info {
+    margin: 8px 0px;
+}
+
+.resume-element__delete {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+
+.delete__button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.delete__button--icon {
+    width: 40px;
+    height: 40px;
+}

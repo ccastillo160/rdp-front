@@ -6,21 +6,34 @@ import LeftMenu from '../components/LeftMenu'
 import './HomePage.css'
 
 const HomePage = () => {
-    const { search, gender } = useContext (GlobalContext);
+    const {changeSearch, search, gender } = useContext (GlobalContext);
     const { books } = useBooks(search)
+    
+    const handlerSearch = () => {
+        changeSearch('')
+    }
+
     if (books.length === 0) {
         return (
-            <div>
+            <div className='home'>
                 <h2>
                     No se encontraron libros para esta búsqueda.
                 </h2>
+                <button onClick={handlerSearch} >Volver</button>
             </div>
         )
     } else {
-        let filteredBooks = books.filter(libro => libro.gender = gender)
+        let filteredBooks = [];
+        let genderTitle = '';
+        if (gender.toLowerCase() === 'todos') {
+            filteredBooks = books
+        } else {
+            filteredBooks = books.filter(libro => libro.gender === gender);
+            genderTitle = `de ${gender}`
+        }
         return (
             <main className='home'>
-                <h1 className='home__title'>Encuentra tus libros favoritos</h1>
+                <h1 className='home__title'>Encuentra tus libros favoritos {genderTitle}</h1>
                 <div className='home__main-content'>
                     < LeftMenu />
                     <div className='main-content__books'>

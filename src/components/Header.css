@@ -5,6 +5,7 @@
     background-color: #0F1C51;
     padding: 15px;
     width: 100%;
+    min-width: 500px;
     height: 80px;
     box-sizing: border-box;
 };

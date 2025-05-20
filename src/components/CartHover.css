@@ -1,0 +1,24 @@
+.cart-hover {
+    position: absolute;
+    border-radius: 12px;
+    padding: 0px 10px;
+    background-color: rgb(182, 204, 234);
+    right: 10px;
+    top: 70px;
+    color: rgba(29, 29, 29, 0.802)
+}
+
+.cart-hover__title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 5px;
+}
+
+.cart-hover__table {
+    border-collapse: collapse;
+}
+
+.table__element--value {
+    border-bottom: 1px solid rgb(69, 69, 69);
+}

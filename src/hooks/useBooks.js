@@ -3,15 +3,9 @@ import { books as booksData } from '../data/booksData.js';
 
 const useBooks = (search) => {
     const [books, setBooks] = useState([]);
-    const genders = booksData.reduce((acum, current) => {
-        if (!acum.includes(current['gender'])) {
-            acum.push(current['gender'])
-        }
-        return acum.sort()
-    }, []);
 
     useEffect(() => {
-        const selectMovies = () => {
+        const selectBooks = () => {
             if (search.length === 0) {
                 setBooks(booksData);
             } else {
@@ -20,10 +14,10 @@ const useBooks = (search) => {
                 setBooks(filteredBooks)
             }
         };
-        selectMovies();
+        selectBooks();
     }, [search]);
 
-    return { books, genders }
+    return { books }
 };
 
 export default useBooks

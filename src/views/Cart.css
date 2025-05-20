@@ -1,0 +1,10 @@
+.cart {
+     flex: 1;
+     display: flex;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(64, 15, 110)
+}

@@ -3,5 +3,9 @@
     width: 230px;
     height: auto;
     padding: 10px;
-    background-color: blue;
+    background-color: #0F1C51;
+}
+
+.left-menu__title {
+    color:white
 }
